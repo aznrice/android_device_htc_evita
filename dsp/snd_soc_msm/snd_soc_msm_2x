@@ -1438,6 +1438,7 @@ SectionDevice
 		'SLIM_0_RX Channels':0:Two
 		'RX1 MIX1 INP1':0:RX1
 		'RX2 MIX1 INP1':0:RX2
+		'COMP1_CLK':1:1
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
 		'RX1 Digital Volume':1:67
@@ -1453,6 +1454,7 @@ SectionDevice
 		'RX2 Digital Volume':1:0
 		'HPHL DAC Switch':1:0
 		'HPHR DAC Switch':1:0
+		'COMP1_CLK':1:0
 		'RX1 MIX1 INP1':0:ZERO
 		'RX2 MIX1 INP1':0:ZERO
 	EndSequence
