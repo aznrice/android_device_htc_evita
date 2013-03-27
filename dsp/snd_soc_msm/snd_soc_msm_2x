@@ -1441,8 +1441,8 @@ SectionDevice
 		'COMP1_CLK':1:1
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'RX1 Digital Volume':1:67
-		'RX2 Digital Volume':1:67
+		'RX1 Digital Volume':1:75
+		'RX2 Digital Volume':1:75
 		'HPHL Volume':1:60
 		'HPHR Volume':1:60
 	EndSequence
@@ -1650,7 +1650,7 @@ SectionDevice
 	Comment "Headset Tx device"
 
 	EnableSequence
-		'SLIM_0_TX Channels':0:One
+		'SLIM_0_TX Channels':0:Two
 		'SLIM TX7 MUX':0:DEC5
 		'DEC5 MUX':0:ADC2
 		'DEC5 Volume':1:71
@@ -1673,7 +1673,7 @@ SectionDevice
 	Comment "Handset Tx device"
 
 	EnableSequence
-		'SLIM_0_TX Channels':0:One
+		'SLIM_0_TX Channels':0:Two
 		'SLIM TX7 MUX':0:DEC6
 		'DEC6 MUX':0:ADC1
 		'DEC6 Volume':1:70
