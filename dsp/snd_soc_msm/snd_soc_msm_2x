@@ -1409,7 +1409,7 @@ SectionDevice
 		'LINEOUT3 DAC Switch':1:1
 		'LINEOUT1 Volume':1:65
 		'LINEOUT3 Volume':1:65
-		'RX3 Digital Volume':1:70
+		'RX3 Digital Volume':1:75
 		'RX4 Digital Volume':1:70
 		'SPK AMP EN Switch':1:1
 	EndSequence
@@ -1477,8 +1477,8 @@ SectionDevice
 		'HPHR DAC Switch':1:1
 		'RX3 Digital Volume':1:77
 		'RX4 Digital Volume':1:77
-		'RX1 Digital Volume':1:67
-		'RX2 Digital Volume':1:67
+		'RX1 Digital Volume':1:72
+		'RX2 Digital Volume':1:72
 		'LINEOUT1 Volume':1:100
 		'LINEOUT3 Volume':1:100
 		'HPHL Volume':1:55
@@ -1893,8 +1893,8 @@ SectionDevice
 		'RX2 MIX1 INP1':0:RX1
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'RX1 Digital Volume':1:67
-		'RX2 Digital Volume':1:67
+		'RX1 Digital Volume':1:72
+		'RX2 Digital Volume':1:72
 		'HPHL Volume':1:100
 		'HPHR Volume':1:100
 	EndSequence
@@ -1951,8 +1951,8 @@ SectionDevice
 		'RX2 MIX1 INP1':0:RX1
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'RX1 Digital Volume':1:67
-		'RX2 Digital Volume':1:67
+		'RX1 Digital Volume':1:72
+		'RX2 Digital Volume':1:72
 		'HPHL Volume':1:100
 		'HPHR Volume':1:100
 	EndSequence
@@ -2118,8 +2118,8 @@ SectionDevice
 		'RX2 MIX1 INP1':0:RX2
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'RX1 Digital Volume':1:67
-		'RX2 Digital Volume':1:67
+		'RX1 Digital Volume':1:72
+		'RX2 Digital Volume':1:72
 		'HPHL Volume':1:100
 		'HPHR Volume':1:100
 	EndSequence
@@ -2209,7 +2209,7 @@ SectionDevice
 		'SLIM_0_RX Channels':0:One
 		'RX1 MIX1 INP1':0:RX1
 		'DAC1 Switch':1:1
-		'RX1 Digital Volume':1:67
+		'RX1 Digital Volume':1:72
 		'EAR PA Gain':0:POS_6_DB
 	EndSequence
 
@@ -2317,8 +2317,8 @@ SectionDevice
 		'RX2 MIX1 INP1':0:RX1
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
-		'RX1 Digital Volume':1:67
-		'RX2 Digital Volume':1:67
+		'RX1 Digital Volume':1:72
+		'RX2 Digital Volume':1:72
 		'HPHL Volume':1:60
 		'HPHR Volume':1:60
 	EndSequence
@@ -2739,8 +2739,8 @@ SectionDevice
 		'LINEOUT3 DAC Switch':1:0
 		'LINEOUT1 Volume':1:60
 		'LINEOUT3 Volume':1:0
-		'RX3 Digital Volume':1:67
-		'RX4 Digital Volume':1:67
+		'RX3 Digital Volume':1:72
+		'RX4 Digital Volume':1:72
 		'DOCK AMP EN Switch':1:1
 	EndSequence
 
