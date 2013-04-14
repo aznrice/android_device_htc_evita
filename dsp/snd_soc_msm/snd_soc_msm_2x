@@ -743,7 +743,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 
@@ -761,7 +760,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 
@@ -779,7 +777,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 
@@ -795,7 +792,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 
@@ -813,7 +809,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 
@@ -831,7 +826,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 }
@@ -854,7 +848,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -869,7 +862,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -885,7 +877,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -901,7 +892,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -917,7 +907,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -933,7 +922,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -953,7 +941,6 @@ SectionVerb
 	# ALSA PCMs
 	PlaybackPCM 2
 	CapturePCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -971,7 +958,6 @@ SectionVerb
 	# ALSA PCMs
 	PlaybackPCM 2
 	CapturePCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -986,7 +972,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -1001,7 +986,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -1016,11 +1000,9 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 }
-
 SectionUseCase."Voice Call IP" {
 SectionVerb
 	Name "Voice Call IP"
@@ -1038,7 +1020,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -1053,7 +1034,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -1069,7 +1049,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -1085,7 +1064,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -1101,7 +1079,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -1117,7 +1094,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -1137,7 +1113,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -1155,7 +1130,6 @@ SectionVerb
 	# ALSA PCMs
 	PlaybackPCM 2
 	CapturePCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -1173,27 +1147,6 @@ SectionVerb
 	# ALSA PCMs
 	PlaybackPCM 2
 	CapturePCM 2
-	ACDBID 0:0
-
-EndSection
-
-SectionVerb
-	Name "Voice Call IPSpeaker DMIC Endfire HW VOIP"
-
-	EnableSequence
-		'SLIM_0_RX_Voice Mixer Voip':1:1
-		'Voip_Tx Mixer SLIM_0_TX_Voip':1:1
-	EndSequence
-
-	DisableSequence
-		'SLIM_0_RX_Voice Mixer Voip':1:0
-		'Voip_Tx Mixer SLIM_0_TX_Voip':1:0
-	EndSequence
-
-	# ALSA PCMs
-	CapturePCM 3
-	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -1213,7 +1166,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -1233,12 +1185,26 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
+
+EndSection
+
+SectionVerb
+	Name "Voice Call IPFM Tx"
+
+	EnableSequence
+	EndSequence
+
+	DisableSequence
+		'SLIM_0_RX_Voice Mixer Voip':1:0
+		'Voip_Tx Mixer SLIM_0_TX_Voip':1:0
+	EndSequence
+
+	# ALSA PCMs
+	PlaybackPCM 3
+	CapturePCM 3
 
 EndSection
 }
-
-
 
 SectionUseCase."FM Digital Radio" {
 Comment "FM Radio use case"
@@ -1259,7 +1225,6 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 6
 	PlaybackPCM 5
-	ACDBID 0:0
 
 EndSection
 
@@ -1280,7 +1245,6 @@ SectionVerb
 	# ALSA PCMs
 	PlaybackPCM 5
 	CapturePCM 6
-	ACDBID 0:0
 
 EndSection
 
@@ -1296,11 +1260,9 @@ SectionVerb
 	# ALSA PCMs
 	PlaybackPCM 5
 	CapturePCM 6
-	ACDBID 0:0
 
 EndSection
 }
-
 SectionUseCase."FM REC" {
 Comment "FM Recording use case"
 SectionVerb
@@ -1317,10 +1279,9 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
-
+}
 SectionUseCase."FM A2DP REC" {
 Comment "FM A2DP playback use case"
 SectionVerb
@@ -1337,11 +1298,9 @@ SectionVerb
 	# ALSA PCMs
 	CapturePCM 1
 	PlaybackPCM 1
-	ACDBID 0:0
 
 EndSection
 }
-
 SectionUseCase."HiFi Tunnel" {
 Comment "Tunnel mode playback use case"
 SectionVerb
@@ -1356,7 +1315,24 @@ SectionVerb
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
+
+EndSection
+
+SectionVerb
+	Name "HiFi TunnelSpeaker FM Tx"
+
+	EnableSequence
+		'SLIMBUS_0_RX Audio Mixer MultiMedia4':1:1
+		'INTERNAL_FM_RX Audio Mixer MultiMedia4':1:1
+	EndSequence
+
+	DisableSequence
+		'SLIMBUS_0_RX Audio Mixer MultiMedia4':1:0
+		'INTERNAL_FM_RX Audio Mixer MultiMedia4':1:0
+	EndSequence
+
+	# ALSA PCMs
+	PlaybackPCM 9
 
 EndSection
 
@@ -1373,41 +1349,6 @@ SectionVerb
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
-
-EndSection
-
-SectionVerb
-	Name "HiFi TunnelPROXY Tx"
-
-	EnableSequence
-	EndSequence
-
-	DisableSequence
-	EndSequence
-
-	# ALSA PCMs
-	PlaybackPCM 9
-	ACDBID 0:0
-
-EndSection
-
-SectionVerb
-	Name "HiFi TunnelPROXY Rx Speaker"
-
-	EnableSequence
-		'AFE_PCM_RX Audio Mixer MultiMedia4':1:1
-		'SLIMBUS_0_RX Audio Mixer MultiMedia4':1:1
-	EndSequence
-
-	DisableSequence
-		'AFE_PCM_RX Audio Mixer MultiMedia4':1:0
-		'SLIMBUS_0_RX Audio Mixer MultiMedia4':1:0
-	EndSequence
-
-	# ALSA PCMs
-	PlaybackPCM 9
-	ACDBID 0:0
 
 EndSection
 
@@ -1426,7 +1367,6 @@ SectionVerb
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
 
 EndSection
 
@@ -1446,7 +1386,6 @@ SectionVerb
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
 
 EndSection
 
@@ -1465,45 +1404,26 @@ SectionVerb
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
 
 EndSection
+}
+SectionUseCase."ADSP testfwk" {
+Comment "ADSP testfwk use case"
 
 SectionVerb
-	Name "HiFi TunnelPROXY Rx Speaker Headset"
+	Name "ADSP testfwk"
 
 	EnableSequence
-		'AFE_PCM_RX Audio Mixer MultiMedia4':1:1
-		'SLIMBUS_0_RX Audio Mixer MultiMedia4':1:1
+		'SLIMBUS_DL_HL Switch':1:1
 	EndSequence
 
 	DisableSequence
-		'AFE_PCM_RX Audio Mixer MultiMedia4':1:0
-		'SLIMBUS_0_RX Audio Mixer MultiMedia4':1:0
+		'SLIMBUS_DL_HL Switch':1:0
 	EndSequence
 
 	# ALSA PCMs
-	PlaybackPCM 9
-	ACDBID 0:0
-
-EndSection
-
-SectionVerb
-	Name "HiFi TunnelPROXY Rx Speaker ANC Headset"
-
-	EnableSequence
-		'AFE_PCM_RX Audio Mixer MultiMedia4':1:1
-		'SLIMBUS_0_RX Audio Mixer MultiMedia4':1:1
-	EndSequence
-
-	DisableSequence
-		'AFE_PCM_RX Audio Mixer MultiMedia4':1:0
-		'SLIMBUS_0_RX Audio Mixer MultiMedia4':1:0
-	EndSequence
-
-	# ALSA PCMs
-	PlaybackPCM 9
-	ACDBID 0:0
+	PlaybackPCM 5
+	CapturePCM 5
 
 EndSection
 }
@@ -1596,30 +1516,75 @@ SectionDevice
 	EnableSequence
 		'SLIM_0_RX Channels':0:Two
 		'RX1 MIX1 INP1':0:RX1
+		'RX1 MIX1 INP2':0:RX6
 		'RX2 MIX1 INP1':0:RX2
-		'COMP1_CLK':1:1
+		'RX2 MIX1 INP2':0:RX7
 		'HPHL DAC Switch':1:1
 		'HPHR DAC Switch':1:1
 		'RX1 Digital Volume':1:70
 		'RX2 Digital Volume':1:70
 		'HPHL Volume':1:60
 		'HPHR Volume':1:60
+		'SLIM TX3 MUX':0:RMIX1
+		'SLIM TX5 MUX':0:RMIX2
 	EndSequence
 
 	DisableSequence
-		'HPHL Volume':1:0
-		'HPHR Volume':1:0
-		'RX1 Digital Volume':1:0
-		'RX2 Digital Volume':1:0
+		'RX1 MIX1 INP1':0:ZERO
+		'RX1 MIX1 INP2':0:ZERO
+		'RX2 MIX1 INP1':0:ZERO
+		'RX2 MIX1 INP2':0:ZERO
 		'HPHL DAC Switch':1:0
 		'HPHR DAC Switch':1:0
-		'COMP1_CLK':1:0
-		'RX1 MIX1 INP1':0:ZERO
-		'RX2 MIX1 INP1':0:ZERO
+		'RX1 Digital Volume':1:0
+		'RX2 Digital Volume':1:0
+		'HPHL Volume':1:0
+		'HPHR Volume':1:0
+		'SLIM TX3 MUX':0:ZERO
+		'SLIM TX5 MUX':0:ZERO
 	EndSequence
 
 	ACDBID 10:1
 	EffectsMixerCTL "SRS TruMedia"
+
+EndSection
+
+SectionDevice
+	Name "Voice Headphones"
+	Comment "Headset Rx device"
+
+	EnableSequence
+		'SLIM_0_RX Channels':0:Two
+		'RX1 MIX1 INP1':0:RX1
+		'RX1 MIX1 INP2':0:RX6
+		'RX2 MIX1 INP1':0:RX2
+		'RX2 MIX1 INP2':0:RX7
+		'HPHL DAC Switch':1:1
+		'HPHR DAC Switch':1:1
+		'RX1 Digital Volume':1:70
+		'RX2 Digital Volume':1:70
+		'HPHL Volume':1:60
+		'HPHR Volume':1:60
+		'SLIM TX3 MUX':0:RMIX1
+		'SLIM TX5 MUX':0:RMIX2
+	EndSequence
+
+	DisableSequence
+		'RX1 MIX1 INP1':0:ZERO
+		'RX1 MIX1 INP2':0:ZERO
+		'RX2 MIX1 INP1':0:ZERO
+		'RX2 MIX1 INP2':0:ZERO
+		'HPHL DAC Switch':1:0
+		'HPHR DAC Switch':1:0
+		'RX1 Digital Volume':1:0
+		'RX2 Digital Volume':1:0
+		'HPHL Volume':1:0
+		'HPHR Volume':1:0
+		'SLIM TX3 MUX':0:ZERO
+		'SLIM TX5 MUX':0:ZERO
+	EndSequence
+
+	ACDBID 10:1
 
 EndSection
 
@@ -1838,7 +1803,7 @@ SectionDevice
 	Comment "Handset Tx device"
 
 	EnableSequence
-		'SLIM_0_TX Channels':0:Two
+		'SLIM_0_TX Channels':0:One
 		'SLIM TX7 MUX':0:DEC6
 		'DEC6 MUX':0:ADC1
 		'DEC6 Volume':1:70
@@ -2052,6 +2017,34 @@ SectionDevice
 EndSection
 
 SectionDevice
+    Name "Handset DMIC Stereo"
+    Comment "Stereo Mic Tx device"
+    EnableSequence
+        'PRI_TX Channels':0:Two
+        'SLIM TX8 MUX':0:DEC3
+        'DEC3 MUX':0:ADC4
+        'ADC4 Volume':1:100
+        'SLIM TX7 MUX':0:DEC4
+        'DEC4 MUX':0:ADC3
+        'ADC3 Volume':1:100
+        'MICBIAS1 CAPLESS Switch':1:1
+    EndSequence
+
+    DisableSequence
+        'SLIM TX7 MUX':0:ZERO
+        'DEC3 MUX':0:ZERO
+        'ADC4 Volume':1:0
+        'SLIM TX8 MUX':0:ZERO
+        'DEC4 MUX':0:ZERO
+        'ADC3 Volume':1:0
+        'MICBIAS1 CAPLESS Switch':1:0
+    EndSequence
+
+    ACDBID  56:2
+
+EndSection
+
+SectionDevice
 	Name "TTY Headset Rx"
 	Comment "TTY Headset Rx device"
 
@@ -2244,8 +2237,6 @@ SectionDevice
 
 	DisableSequence
 	EndSequence
-
-	ACDBID 0:0
 
 EndSection
 
@@ -2476,38 +2467,6 @@ SectionDevice
 	EndSequence
 
 	ACDBID 8:2
-
-EndSection
-
-SectionDevice
-	Name "Voice Headphones"
-	Comment "Headset Rx device"
-
-	EnableSequence
-		'SLIM_0_RX Channels':0:One
-		'RX1 MIX1 INP1':0:RX1
-		'RX2 MIX1 INP1':0:RX1
-		'HPHL DAC Switch':1:1
-		'HPHR DAC Switch':1:1
-		'RX1 Digital Volume':1:72
-		'RX2 Digital Volume':1:72
-		'HPHL Volume':1:60
-		'HPHR Volume':1:60
-	EndSequence
-
-	DisableSequence
-		'HPHL Volume':1:0
-		'HPHR Volume':1:0
-		'RX1 Digital Volume':1:0
-		'RX2 Digital Volume':1:0
-		'HPHL DAC Switch':1:0
-		'HPHR DAC Switch':1:0
-		'RX1 MIX1 INP1':0:ZERO
-		'RX2 MIX1 INP1':0:ZERO
-	EndSequence
-
-	ACDBID 10:1
-	EffectsMixerCTL "SRS TruMedia"
 
 EndSection
 
@@ -3331,7 +3290,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 6
 	PlaybackPCM 5
-	ACDBID 0:0
 
 EndSection
 
@@ -3352,7 +3310,6 @@ SectionModifier
 	# ALSA PCMs
 	PlaybackPCM 5
 	CapturePCM 6
-	ACDBID 0:0
 
 EndSection
 
@@ -3368,7 +3325,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 
@@ -3389,7 +3345,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 6
 	PlaybackPCM 5
-	ACDBID 0:0
 
 EndSection
 
@@ -3410,7 +3365,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 6
 	PlaybackPCM 5
-	ACDBID 0:0
 
 EndSection
 
@@ -3428,7 +3382,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 
@@ -3578,7 +3531,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 
@@ -3596,7 +3548,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 
@@ -3614,7 +3565,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 
@@ -3632,7 +3582,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 
@@ -3648,7 +3597,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 0
 	PlaybackPCM 0
-	ACDBID 0:0
 
 EndSection
 
@@ -3682,7 +3630,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -3698,7 +3645,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -3714,7 +3660,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -3730,7 +3675,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -3746,7 +3690,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -3764,7 +3707,6 @@ SectionModifier
 	# ALSA PCMs
 	PlaybackPCM 2
 	CapturePCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -3784,7 +3726,6 @@ SectionModifier
 	# ALSA PCMs
 	PlaybackPCM 2
 	CapturePCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -3799,7 +3740,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -3814,22 +3754,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
-
-EndSection
-
-SectionModifier
-	Name "Play VoiceSpeaker DMIC Endfire HW VOIP"
-
-	EnableSequence
-		'SLIM_0_RX_Voice Mixer CSVoice':1:1
-		'Voice_Tx Mixer SLIM_0_TX_Voice':1:1
-	EndSequence
-
-	# ALSA PCMs
-	CapturePCM 2
-	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -3844,7 +3768,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -3859,7 +3782,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -3875,7 +3797,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 2
 	PlaybackPCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -3893,7 +3814,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -3910,7 +3830,6 @@ SectionModifier
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
 
 EndSection
 
@@ -3927,7 +3846,6 @@ SectionModifier
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
 
 EndSection
 
@@ -3947,7 +3865,6 @@ SectionModifier
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
 
 EndSection
 
@@ -3966,7 +3883,6 @@ SectionModifier
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
 
 EndSection
 
@@ -3985,7 +3901,6 @@ SectionModifier
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
 
 EndSection
 
@@ -4004,7 +3919,6 @@ SectionModifier
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
 
 EndSection
 
@@ -4023,7 +3937,6 @@ SectionModifier
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
 
 EndSection
 
@@ -4042,7 +3955,6 @@ SectionModifier
 
 	# ALSA PCMs
 	PlaybackPCM 9
-	ACDBID 0:0
 
 EndSection
 
@@ -4062,7 +3974,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -4077,7 +3988,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -4093,7 +4003,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -4109,7 +4018,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -4125,7 +4033,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -4141,7 +4048,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -4159,7 +4065,6 @@ SectionModifier
 	# ALSA PCMs
 	PlaybackPCM 2
 	CapturePCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -4177,7 +4082,6 @@ SectionModifier
 	# ALSA PCMs
 	PlaybackPCM 2
 	CapturePCM 2
-	ACDBID 0:0
 
 EndSection
 
@@ -4192,7 +4096,6 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
 
@@ -4207,6 +4110,5 @@ SectionModifier
 	# ALSA PCMs
 	CapturePCM 3
 	PlaybackPCM 3
-	ACDBID 0:0
 
 EndSection
